@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enchanted Password Keeper</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🔮 Enchanted Password Keeper</h1>
+
+  <div class="generator-box">
+    <input type="range" id="length" min="6" max="32" value="16" />
+    <span id="lengthValue">16</span>
+
+    <div class="options">
+      <label><input type="checkbox" id="uppercase" checked /> Uppercase</label>
+      <label><input type="checkbox" id="lowercase" checked /> Lowercase</label>
+      <label><input type="checkbox" id="numbers" checked /> Numbers</label>
+      <label><input type="checkbox" id="symbols" checked /> Symbols</label>
+    </div>
+
+    <button id="generateBtn">✨ Generate</button>
+    <div id="output"></div>
+
+    <button id="saveBtn">💾 Save Password</button>
+  </div>
+
+  <h2>📚 Saved Passwords</h2>
+  <div id="passwordList"></div>
+
+  <script src="script.js"></script>
+</body>
+      </html>
