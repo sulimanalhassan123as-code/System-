@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+  background: #e0e5ec;
+  text-align: center;
+  padding: 20px;
+}
+
+.generator-box {
+  background: #e0e5ec;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 7px 7px 14px #b8bec7, -7px -7px 14px #fff;
+  max-width: 350px;
+  margin: auto;
+}
+
+button {
+  background: #e0e5ec;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 15px;
+  margin: 10px 0;
+  box-shadow: 5px 5px 10px #b8bec7, -5px -5px 10px #fff;
+  transition: 0.1s;
+}
+
+button:active {
+  box-shadow: inset 5px 5px 10px #b8bec7, inset -5px -5px 10px #fff;
+}
+
+.password-card {
+  background: #e0e5ec;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 15px;
+  max-width: 350px;
+  box-shadow: 5px 5px 10px #b8bec7, -5px -5px 10px #fff;
+    }
